@@ -1,11 +1,21 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Turn light on</title>
-</head>
-<body>
-    
-</body>
+    <link href="index.css" rel="stylesheet" />
+  </head>
+  <body>
+    <div class="parent-container" id="parent-container-id">
+      <h1>Can you turn the light on ??</h1>
+      <button onclick="document.getElementById('on').src='assets/on.png'">
+        On
+      </button>
+      <img src="assets/off.jpeg" alt="off" id="on" />
+      <button onclick="document.getElementById('on').src='assets/off.jpeg'">
+        Off
+      </button>
+    </div>
+  </body>
 </html>

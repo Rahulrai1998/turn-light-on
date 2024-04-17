@@ -1,0 +1,12 @@
+body{
+    background:rgb(35, 121, 171);
+    align-items: center;
+}
+.parent-container{
+text-align: center;
+}
+img{
+    width:100px;
+    height: 100px;
+    background: transparent;
+}
